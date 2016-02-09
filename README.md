@@ -16,3 +16,7 @@ Base de donnée WAC/Epitech - Projet Tweet Academie
 - Condition UNIQUE sur "login" et "email" dans "tp_users"
 - "mail" deviens "email" dans "tp_users"
 - "picture" deviens "picture_url" dans "tp_pictures"
+
+# Dernières modifications (Mohamed, 09/02/2015) :
+
+-Ajout des champs "cpostal", "adress", "region", "departement" dans la table "tp_users" en null
