@@ -6,7 +6,7 @@ Base de donnée WAC/Epitech - Projet Tweet Academie
 
 - Les INT passe tous en UNSIGNED
 - Suppression des INDEX (clef grise) sur les ID primaire
-- Renommage des champs "date" en champ plus nominatif (fav_date, messsage_date, ...)
+- Renommage des champs "date" en champ plus nominatif sur 3/4 des tables (fav_date, messsage_date, register_date, view_date)
 - Ajout de champ date manquant sur certaines tables
 - "picture" deviens "picture_url"
 - Le champ "content" dans "tp_messages" passe en TEXT (twitter autorise depuis bien longtemps les messages privés de plus de 140 caractères)
@@ -15,5 +15,4 @@ Base de donnée WAC/Epitech - Projet Tweet Academie
 - Ajouts des relations en cascade sur toutes les clef étrangères
 - Condition UNIQUE sur "login" et "email" dans "tp_users"
 - "mail" deviens "email" dans "tp_users"
-- "register" deviens "register_date"
 - "picture" deviens "picture_url" dans "tp_pictures"
