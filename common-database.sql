@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mar 09 Février 2016 à 01:59
+-- Généré le :  Mar 09 Février 2016 à 02:42
 -- Version du serveur :  5.5.47-0ubuntu0.14.04.1
 -- Version de PHP :  5.5.9-1ubuntu4.14
 
@@ -135,7 +135,7 @@ CREATE TABLE `tp_users` (
   `connect` tinyint(1) NOT NULL,
   `active` tinyint(1) NOT NULL,
   `birthday` date DEFAULT NULL,
-  `register` datetime NOT NULL,
+  `register_date` datetime NOT NULL,
   `last_connection` datetime NOT NULL,
   `sexe` enum('m','f') DEFAULT NULL,
   `cover` varchar(255) DEFAULT NULL,
@@ -217,7 +217,9 @@ ALTER TABLE `tp_tweets`
 -- Index pour la table `tp_users`
 --
 ALTER TABLE `tp_users`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `login` (`login`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- Index pour la table `tp_user_preference`
@@ -271,7 +273,7 @@ ALTER TABLE `tp_tweets`
 -- AUTO_INCREMENT pour la table `tp_users`
 --
 ALTER TABLE `tp_users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT pour la table `tp_user_preference`
 --

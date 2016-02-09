@@ -13,3 +13,7 @@ Base de donnée WAC/Epitech - Projet Tweet Academie
 - Passage en UTF-8 de tout les champs plutôt que LATIN
 - De nombreux champs de la table "tp_users" deviennent optionnel (NULL autorisé) pour permettre l'inscription en 2 temps si nécessaire
 - Ajouts des relations en cascade sur toutes les clef étrangères
+- Condition UNIQUE sur "login" et "email" dans "tp_users"
+- "mail" deviens "email" dans "tp_users"
+- "register" deviens "register_date"
+- "picture" deviens "picture_url" dans "tp_pictures"
