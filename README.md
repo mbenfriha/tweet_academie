@@ -20,3 +20,7 @@ Base de donnée WAC/Epitech - Projet Tweet Academie
 # Dernières modifications (Mohamed, 09/02/2015) :
 
 -Ajout des champs "cpostal", "adress", "region", "departement" dans la table "tp_users" en null
+
+# Dernières modifications (Mohamed, 11/02/2015) :
+
+-Ajout d'une table "tp_retweets"
