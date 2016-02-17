@@ -24,3 +24,17 @@ Base de donnée WAC/Epitech - Projet Tweet Academie
 # Dernières modifications (Mohamed, 11/02/2015) :
 
 -Ajout d'une table "tp_retweets"
+
+# Dernières modifications (Mohamed, 17/02/2015) :
+
+-Modification des champs "destinataire_del", "expediteur_del", "view", "view_date", "message_date" dans la table "tp_messages" en null
+-Modification du champs "follow_date" dans la table "tp_follow" en null
+-Modification du champs "picture_date" dans la table "tp_pictures" en null
+-Modification du champs "reply_date" dans la table "tp_replys" en null
+-Modification du champs "date_retweet" dans la table "tp_retweets" en null
+-Modification du champs "tp_tweets" dans la table "tweet_date" en null
+-Modification des champs "last_connection", "register_date", "token", "connect" dans la table "tp_users" en null
+
+# Dernières modifications (Labinot, 17/02/2015) :
+
+-Ajout du champs "active" dans la table "tp_follow" à null
